@@ -2,7 +2,7 @@ NAME = megaphone
 SOURCES = megaphone.cpp
 
 $(NAME):
-	@g++ -Wall -Werror -Wextra $(SOURCES) -o $(NAME)
+	@clang++ -Wall -Werror -Wextra $(SOURCES) -o $(NAME)
 
 all: $(NAME)
 
