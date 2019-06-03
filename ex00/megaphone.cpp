@@ -13,6 +13,8 @@ int   main(int ac, char **av) {
     }
     if (i != ac - 1)
       std::cout << (' ');
+    else
+      std::endl;
     i++;
     j = 0;
   }
